@@ -49,7 +49,7 @@ int main(int argc, char **argv)
     // Which sets things like parity, stop byte, length, etc.
 
     // This sets up the serial communication to the arduino driver.
-    fileDescriptor = open("/dev/ttyACM0", O_RDWR | O_NOCTTY); //open link to arudino
+    fileDescriptor = open("/dev/ttyACM1", O_RDWR | O_NOCTTY); //open link to arudino
 
 
     struct termios newtio;
