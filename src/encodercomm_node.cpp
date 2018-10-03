@@ -29,8 +29,8 @@ struct encoder_data {
 };
 
 struct wheel_velocities {  // SI unit!
-    long L_vel;
-    long R_vel; 
+    float L_vel;
+    float R_vel; 
 };
 
 // globals
