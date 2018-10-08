@@ -10,7 +10,7 @@
 #define BUFER_SIZE 5
 #define MESSAGE_LENGTH 12
 #define MESSAGE_FREQUENCY 20
-#define SERIAL_PATH "/dev/ttyACM1"
+#define SERIAL_PATH "/dev/ttyACM2"
 
 #define L_DIR_INDEX 1
 #define R_DIR_INDEX 6
